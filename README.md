@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sebastian Amaya Portfolio
 
-## Getting Started
+Personal portfolio and resume website developed with NextJS, TypeScript and TailwindCSS.
 
-First, run the development server:
+This project was created as part of the Web Engineering course project and is based on a Figma design reference. The application showcases personal information, technical skills, education, projects and social media links using a modern and responsive interface.
+
+---
+
+# Technologies Used
+
+- NextJS
+- React
+- TypeScript
+- TailwindCSS
+- React Icons
+
+---
+
+# Features
+
+- Responsive portfolio design
+- Fixed left sidebar with personal information
+- Fixed right sidebar with social media links
+- Scrollable central content
+- Reusable React components
+- Atomic Design architecture
+- Portfolio section with horizontal scroll
+- Modal dialogs for project details
+- Responsive layout for desktop and mobile
+- Modern UI using TailwindCSS
+
+---
+
+# Project Structure
+
+```bash
+src/
+│
+├── app/
+├── components/
+│   ├── atoms/
+│   ├── molecules/
+│   ├── organisms/
+│   └── layout/
+│
+├── data/
+├── styles/
+└── types/
+```
+
+---
+
+# Main Sections
+
+## Left Sidebar
+- Profile picture
+- Personal information
+- Languages
+- Programming languages
+- Extra skills
+
+## Main Content
+- Hero/Profile section
+- Knowledge section
+- Education section
+- Portfolio section
+- Footer
+
+## Right Sidebar
+- Github link
+- LinkedIn link
+
+---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SAmaya29/your-repository-name.git
+```
+
+Move into the project folder:
+
+```bash
+cd your-repository-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project can be deployed easily using Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Author
 
-## Deploy on Vercel
+## Sebastian Amaya Perez
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Medellín, Colombia
+- Email: sebastian.amaya1@udea.edu.co
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Social Media
+
+- Github:
+  https://github.com/SAmaya29
+
+- LinkedIn:
+  https://www.linkedin.com/in/samaya29
+
+---
+
+# Academic Purpose
+
+This project was developed for educational purposes as part of the Web Engineering course.
